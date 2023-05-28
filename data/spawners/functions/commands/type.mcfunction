@@ -1,19 +1,25 @@
-# Cow:
-tellraw @s [{"text": "Cow Spawner:", "bold": true, "color": "yellow"}]
-tellraw @s [{"text": "Description: ", "color": "gray"}, {"text": "Summons Cows"}]
+# Zombie:
+tellraw @s [{"text": "Zombie Spawner:", "bold": true, "color": "yellow"}]
+tellraw @s [{"text": "Description: ", "color": "gray"}, {"text": "Summons Zombies"}]
 tellraw @s [{"text": "[Redeem]", "color": "green", "clickEvent":{"action":"run_command","value":"/trigger redeem_spawner set 1"}}]
 tellraw @s [{"text": ""}]
 
-# Sheep:
-tellraw @s [{"text": "Sheep Spawner:", "bold": true, "color": "yellow"}]
-tellraw @s [{"text": "Description: ", "color": "gray"}, {"text": "Summons Sheep"}]
+# Skeleton:
+tellraw @s [{"text": "Skeleton Spawner:", "bold": true, "color": "yellow"}]
+tellraw @s [{"text": "Description: ", "color": "gray"}, {"text": "Summons Skeletons"}]
 tellraw @s [{"text": "[Redeem]", "color": "green", "clickEvent":{"action":"run_command","value":"/trigger redeem_spawner set 2"}}]
 tellraw @s [{"text": ""}]
 
-# Pig:
-tellraw @s [{"text": "Pig Spawner:", "bold": true, "color": "yellow"}]
-tellraw @s [{"text": "Description: ", "color": "gray"}, {"text": "Summons Pigs"}]
+# Spider:
+tellraw @s [{"text": "Spider Spawner:", "bold": true, "color": "yellow"}]
+tellraw @s [{"text": "Description: ", "color": "gray"}, {"text": "Summons Spider"}]
 tellraw @s [{"text": "[Redeem]", "color": "green", "clickEvent":{"action":"run_command","value":"/trigger redeem_spawner set 3"}}]
+tellraw @s [{"text": ""}]
+
+# Cave Spider:
+tellraw @s [{"text": "Cave Spider Spawner:", "bold": true, "color": "yellow"}]
+tellraw @s [{"text": "Description: ", "color": "gray"}, {"text": "Summons Cave Spider"}]
+tellraw @s [{"text": "[Redeem]", "color": "green", "clickEvent":{"action":"run_command","value":"/trigger redeem_spawner set 4"}}]
 tellraw @s [{"text": ""}]
 
 # Reset Command:
